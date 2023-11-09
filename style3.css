@@ -1,0 +1,57 @@
+body {
+    font-style: italic;
+    margin: 0;
+    padding: 0px;
+    background-color: lemonchiffon;
+    background-image: url(images/photo\ 3.jpg);
+}
+
+header {
+    background-color: #8c7ae8;
+    color: lemonchiffon;
+    text-align: center;
+    padding: 6px;
+    border: 10px solid salmon;
+    outline: yellowgreen solid 10px;
+
+}
+
+div {
+    padding: 100px;
+    margin: 100px;
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:palevioletred;
+    padding: 30px;
+    width: 100%;
+    max-width: 440px;
+    margin:0 auto;
+}
+h1{
+    color: lemonchiffon;
+    font-size: 48px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, select, button {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+

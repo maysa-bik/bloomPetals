@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <h1>🌻Contactez-nous🌻</h1>
+    </header>
+    <div id="contact-form">
+        <h2>Formulaire de contact</h2>
+        <form action="traitement.php" method="post">
+            <label for="civilite">Civilité :</label>
+            <select id="civilite" name="civilite">
+                <option value="Monsieur">Monsieur</option>
+                <option value="Madame">Madame</option>
+            </select>
+
+            <label for="nom">Nom et Prénom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="adresse">Adresse postale :</label>
+            <input type="text" id="adresse" name="adresse" required>
+
+            <label for="sujet">Sujet</label>
+            <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+
+            <label for="emailAddress">Email</label>
+            <input id="text" type="email" name="email" placeholder="Votre email">
+
+            <label for="subject">Message</label>
+            <textarea id="text" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+
+        
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>

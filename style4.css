@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFB6C1;
+}
+
+header {
+    background-color: #C71585;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+#mosaique {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);;
+    gap: 15px; 
+    padding: 15px;
+}
+#mosaique {
+    position: relative;
+    transform-style: preserve-3d;
+ 
+}
+
+#mosaique img {
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+    border: 3px solid #C71585;
+    transform: rotateY('180deg');
+
+}
+#mosaique img:hover{
+    border: 2px solid #777;
+
+}
+@media  screen and (min-width: 100px) {
+    .image-tall{
+      grid-row: span 2 / auto;
+    }
+    .image-wide {
+        grid-column: span 3 / auto;
+    }
+}
+  
+
+
+
